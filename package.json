@@ -1,0 +1,58 @@
+{
+  "name": "battlesapi",
+  "version": "1.0.0",
+  "description": "Instarem Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ng": "ng",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saroj-kr/battles-api.git"
+  },
+  "author": "Saroj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saroj-kr/battles-api/issues"
+  },
+  "homepage": "https://github.com/Saroj-kr/battles-api#readme",
+  "dependencies": {
+    "@angular/common": "^4.2.4",
+    "@angular/compiler": "^4.2.4",
+    "@angular/core": "^4.2.4",
+    "@angular/platform-browser": "^4.2.4",
+    "@angular/router": "^4.2.4",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.1",
+    "debug": "~2.6.3",
+    "express": "^4.15.5",
+    "express-jwt": "^3.0.1",
+    "jade": "~1.11.0",
+    "mongoose": "^5.1.4",
+    "morgan": "~1.8.1",
+    "q": "^1.5.1",
+    "rootpath": "^0.1.2",
+    "rxjs": "^5.4.2",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-jwt": "^3.0.1",
+    "jade": "~1.11.0",
+    "mongoose": "^5.1.4",
+    "morgan": "~1.8.1"
+  },
+  "engines": {
+    "node": "6.11.3",
+    "npm": "3.10.10"
+  },
+  "cacheDirectories": [
+    "node_modules, node_modules/.bin"
+  ]
+}
